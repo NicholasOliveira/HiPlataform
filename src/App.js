@@ -9,9 +9,18 @@ function App() {
   const [ListedEdit, setListedEdit] = useState([]);
 
   useEffect(() => {
-    setListedEdit(setListed())
+    var data = localStorage.getItem("dados")
+    if (data) {
+      setListedEdit(JSON.parse(data))
+    } else {
+      setListedEdit(setListed())
+    }
+
   }, [])
 
+  useEffect(() => {
+    localStorage.setItem("dados", JSON.stringify(ListedEdit))
+  }, [ListedEdit])
 
   const [Peoples, setPeoples] = useState([]);
   useEffect(() => {

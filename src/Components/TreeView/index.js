@@ -5,7 +5,6 @@ import Checkbox from '../Checkbox'
 import { handleOpen, handleCheckbox, isChildren } from '../../Utils/Functions';
 
 export function ListItem({ item, listEdit, setListedEdit }) {
-  //console.log(listEdit)
 
   let child = null;
   if ([item.children] && [item.children.length]) {

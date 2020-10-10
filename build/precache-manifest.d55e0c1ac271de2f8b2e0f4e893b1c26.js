@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "10731818865a543365deeea51037d419",
+    "revision": "55c9d860a4851289bdd8a72e79bd5d10",
     "url": "/HiPlataform/build/index.html"
   },
   {
-    "revision": "0a8e84740e5e15b8e5f2",
+    "revision": "0722d17f5023313edb1f",
     "url": "/HiPlataform/build/static/css/main.31af2b55.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/HiPlataform/build/static/js/2.f9f25972.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0a8e84740e5e15b8e5f2",
-    "url": "/HiPlataform/build/static/js/main.5a1abbf9.chunk.js"
+    "revision": "0722d17f5023313edb1f",
+    "url": "/HiPlataform/build/static/js/main.5bdd46ec.chunk.js"
   },
   {
     "revision": "0571ffa3472771d719b2",
