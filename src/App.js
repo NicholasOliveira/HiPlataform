@@ -1,25 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
 import './App.css';
+import api from './data/api'
+import { ListItem } from './Components/TreeView'
+import setListed from './Functions/setListed'
 
 function App() {
+
+  const [ListedEdit, setListedEdit] = useState([]);
+
+  useEffect(() => {
+    setListedEdit(setListed())
+  }, [])
+
+
+  const [Peoples, setPeoples] = useState([]);
+  useEffect(() => {
+
+    setPeoples(api);
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {Object.values(Peoples).map(i => {
+        return <ListItem listEdit={ListedEdit} setListedEdit={setListedEdit} item={i} key={i.id} />
+      })}
+    </>
   );
 }
 
