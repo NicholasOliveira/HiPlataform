@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/HiPlataform/build/static/css/main.31af2b55.chunk.css",
-    "main.js": "/HiPlataform/build/static/js/main.5bdd46ec.chunk.js",
-    "main.js.map": "/HiPlataform/build/static/js/main.5bdd46ec.chunk.js.map",
+    "main.js": "/HiPlataform/build/static/js/main.de0106e9.chunk.js",
+    "main.js.map": "/HiPlataform/build/static/js/main.de0106e9.chunk.js.map",
     "runtime-main.js": "/HiPlataform/build/static/js/runtime-main.35645f61.js",
     "runtime-main.js.map": "/HiPlataform/build/static/js/runtime-main.35645f61.js.map",
-    "static/js/2.f9f25972.chunk.js": "/HiPlataform/build/static/js/2.f9f25972.chunk.js",
-    "static/js/2.f9f25972.chunk.js.map": "/HiPlataform/build/static/js/2.f9f25972.chunk.js.map",
+    "static/js/2.45ff62bd.chunk.js": "/HiPlataform/build/static/js/2.45ff62bd.chunk.js",
+    "static/js/2.45ff62bd.chunk.js.map": "/HiPlataform/build/static/js/2.45ff62bd.chunk.js.map",
     "index.html": "/HiPlataform/build/index.html",
-    "precache-manifest.d55e0c1ac271de2f8b2e0f4e893b1c26.js": "/HiPlataform/build/precache-manifest.d55e0c1ac271de2f8b2e0f4e893b1c26.js",
+    "precache-manifest.e8e53dbf1baa95fd127e4f49b070b3d8.js": "/HiPlataform/build/precache-manifest.e8e53dbf1baa95fd127e4f49b070b3d8.js",
     "service-worker.js": "/HiPlataform/build/service-worker.js",
     "static/css/main.31af2b55.chunk.css.map": "/HiPlataform/build/static/css/main.31af2b55.chunk.css.map",
-    "static/js/2.f9f25972.chunk.js.LICENSE.txt": "/HiPlataform/build/static/js/2.f9f25972.chunk.js.LICENSE.txt"
+    "static/js/2.45ff62bd.chunk.js.LICENSE.txt": "/HiPlataform/build/static/js/2.45ff62bd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.35645f61.js",
-    "static/js/2.f9f25972.chunk.js",
+    "static/js/2.45ff62bd.chunk.js",
     "static/css/main.31af2b55.chunk.css",
-    "static/js/main.5bdd46ec.chunk.js"
+    "static/js/main.de0106e9.chunk.js"
   ]
 }
