@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, memo } from 'react';
 import './App.css';
 import api from './data/api'
-import { ListItem } from './Components/TreeView'
+import ListItem from './Components/TreeView'
 import setListed from './Functions/setListed'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     if (data) {
       setListedEdit(JSON.parse(data))
     } else {
-      setListedEdit(setListed())
+      setListedEdit(setListed)
     }
 
   }, [])
@@ -37,4 +37,4 @@ function App() {
   );
 }
 
-export default App;
+export default memo(App);

@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { memo, useCallback, useMemo } from 'react'
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import { Container } from './styles'
 import Checkbox from '../Checkbox'
-import { handleOpen, handleCheckbox, isChildren } from '../../Utils/Functions';
+import handleCheckbox from '../../Utils/handleCheckbox';
+import handleOpen from '../../Utils/handleOpen';
 
-export function ListItem({ item, listEdit, setListedEdit }) {
+function ListItem({ item, listEdit, setListedEdit }) {
 
   let child = null;
   if ([item.children] && [item.children.length]) {
@@ -16,6 +17,7 @@ export function ListItem({ item, listEdit, setListedEdit }) {
       </ul>
     );
   }
+  child = useCallback(child);
 
   return (
     <Container>
@@ -29,3 +31,5 @@ export function ListItem({ item, listEdit, setListedEdit }) {
     </Container >
   );
 }
+
+export default memo(ListItem);

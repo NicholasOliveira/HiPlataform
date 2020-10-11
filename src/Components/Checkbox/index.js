@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { memo, useCallback } from 'react';
 import { Style } from './styles'
+import handleCheckbox from '../../Utils/handleCheckbox';
 
 //<input  type="checkbox"  />
 
@@ -15,4 +16,4 @@ function Checkbox({ id, name, arrow, checkbox, checked, isChildrenFalse }) {
     </Style>
   )
 }
-export default Checkbox;
+export default memo(Checkbox);

@@ -1,8 +1,9 @@
+import { memo, useCallback } from 'react';
 import api from '../data/api'
 
 const neww = {};
 
-export default function setListed() {
+function setListed() {
 
   Object.values(api).map(i => (
     ChangeList({ item: i, key: i.id, parent: null })
@@ -23,4 +24,6 @@ export default function setListed() {
     }
   }
   return neww;
-}
+};
+
+export default setListed
