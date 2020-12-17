@@ -3,6 +3,6 @@
 Desafio ->
 Criação de Checkbox e DropList, em formato de pilha.
 
-arquivo de base: com 1 mil registros em formato json.
+Deploy [CI/CD]/Heroku = https://tree-view-checkbox.herokuapp.com/
 
-segue link run build: https://nicholasoliveira.github.io/tree-view-checkbox
+arquivo de base: com 1 mil registros em formato json.
