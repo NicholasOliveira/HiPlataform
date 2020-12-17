@@ -1,6 +1,5 @@
-# HiPlataform
+# Welcome peoples
 
-Desafio ->
 Criação de Checkbox e DropList, em formato de pilha.
 
 Deploy [CI/CD]/Heroku = https://tree-view-checkbox.herokuapp.com/
